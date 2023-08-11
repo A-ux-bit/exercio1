@@ -30,7 +30,7 @@ public class Telacadastro{
         return this.dataAquisicao;
     }
 
-    public boolean isAtivo(){
+    public Boolean getAtivo(){
         return this.ativo;
     }
 
