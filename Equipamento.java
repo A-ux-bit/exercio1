@@ -44,12 +44,13 @@ public class Equipamento {
         this.dataAquisicao = dataAquisicao;
     }
 
-    public Boolean isAtivo() {
+    public Boolean getAtivo() {
         return ativo;
     }
     public void setAtivo(Boolean ativo) {
         this.ativo = ativo;
     }
+
 
     public String toString(){
         String report;
@@ -60,7 +61,7 @@ public class Equipamento {
                  "modelo:" + getModelo() + "\n" +
                  "fornecedor:" + getFornecedor() + "\n" +
                  "dataaquisicao:" + getDataAquisicao() + "\n" +
-                 "ativo:" + isAtivo() + "\n" +
+                 "ativo:" + getAtivo() + "\n" +
                  "\n" + "******************";
 
         return report;
