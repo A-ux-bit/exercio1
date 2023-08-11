@@ -11,7 +11,7 @@ public class Principal {
         equipamento.setModelo(telacadastro.getModelo());
         equipamento.setFornecedor(telacadastro.getFornecedor());
         equipamento.setDataaquisicao(telacadastro.getDataAquisicao());
-        equipamento.setAtivo(telacadastro.isAtivo());
+        equipamento.setAtivo(telacadastro.getAtivo());
 
         System.out.println(equipamento.toString());
 
