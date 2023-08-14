@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class computador extends Equipamento{
 
     private String cpu;
@@ -27,7 +25,7 @@ public class computador extends Equipamento{
 
     public String toString(){
         return(
-            "codigo.....:" + this.getId() +
+            "\n\n\ncodigo.....:" + this.getId() +
             "\nnome....." + this.getNome()+
             "\nmodelo..." + this.getModelo()+
             "\nfornecedor...." + this.getFornecedor()+

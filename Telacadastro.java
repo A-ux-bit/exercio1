@@ -37,7 +37,7 @@ public class Telacadastro{
     public void desenhatelacadastro(){
         Scanner input = new Scanner(System.in);
         System.out.print("**********Entrada de dados**********\n\n");
-        System.out.print("informe o id:");
+        System.out.print("informe o código:");
         this.id = input.nextLine();
         System.out.print("informe o nome do produto:");
         this.nome = input.nextLine();
@@ -49,6 +49,5 @@ public class Telacadastro{
         this.dataAquisicao = Date.valueOf(input.nextLine());
         System.out.print("Status do produto:");
         this.ativo = Boolean.parseBoolean(input.nextLine());
-        System.out.print("***********************\n\n\n");
     }
 }

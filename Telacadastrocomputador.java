@@ -15,8 +15,11 @@ public class Telacadastrocomputador extends Telacadastro {
         return software;
     }
 
-    public void desenhaTelacastroComputador(){
+    public void desenhaTelacadastroComputador(){
         Scanner inputComputador = new Scanner(System.in);
+
+
+
         this.desenhatelacadastro();
         System.out.print("C.P.U.......");
         this.cpu = inputComputador.nextLine();
@@ -25,7 +28,7 @@ public class Telacadastrocomputador extends Telacadastro {
         System.out.print("Software.....");
         this.software = inputComputador.nextLine();
 
-        inputComputador.close();
+        //inputComputador.close();
     }
 
 
