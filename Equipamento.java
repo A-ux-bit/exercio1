@@ -9,6 +9,18 @@ public class Equipamento {
     private Date dataAquisicao;
     private Boolean ativo;
 
+    //método construtor
+
+    public Equipamento(){
+        System.out.println("Classe equipamento construída");
+        
+    }
+
+      public Equipamento(String id){
+        System.out.println("Classe equipamento com id construida: " +id);
+    }
+
+
     public String getId() {
         return id;
     }

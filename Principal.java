@@ -2,6 +2,7 @@ public class Principal {
 
     public static void main(String[] args){
         Equipamento equipamento = new Equipamento();
+        Equipamento equipamento2 = new Equipamento();
         Telacadastro telacadastro = new Telacadastro();
         
         telacadastro.desenhatelacadastro();

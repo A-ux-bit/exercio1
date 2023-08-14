@@ -49,5 +49,6 @@ public class Telacadastro{
         this.dataAquisicao = Date.valueOf(input.nextLine());
         System.out.print("Status do produto:");
         this.ativo = Boolean.parseBoolean(input.nextLine());
+        System.out.print("***********************\n\n\n");
     }
 }
