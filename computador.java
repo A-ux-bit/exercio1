@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class computador extends Equipamento{
 
     private String cpu;
@@ -35,6 +37,6 @@ public class computador extends Equipamento{
             "\nR.A.M....."+ this.getRam()+
             "\nSoftware...."+ this.getSoftware()
         );
+
     }
-    
 }
