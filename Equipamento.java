@@ -21,10 +21,10 @@ public class Equipamento {
     }
 
 
-    protected String getId() {
+    public String getId() {
         return id;
     }
-    protected void setId(String id) {
+    public void setId(String id) {
         this.id = id;
     }
 

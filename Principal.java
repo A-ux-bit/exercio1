@@ -1,6 +1,6 @@
 public class Principal{
 
-    public static void main(String[] args){
+   /*  public static void main(String[] args){
         computador comp1 = new computador();
         Telacadastrocomputador telacomp1 = new Telacadastrocomputador();
         
@@ -20,4 +20,19 @@ public class Principal{
      
     }
     
+} */
+
+public static void main(String[] args){
+    PrestadorServico ps01 = new PrestadorServico();
+    TelaPrestadorServico tps01 = new TelaPrestadorServico();
+
+    tps01.desenhaTelaPrestadorServico();
+    ps01.setId(tps01.getCampoid());
+    ps01.setNome(tps01.getCampoNome());
+    ps01.setCnpj(tps01.getCnpj());
+    ps01.setDescricaoservico(tps01.getDescricaoservico());
+
+
+    System.out.println(ps01.toString());
+}
 }
