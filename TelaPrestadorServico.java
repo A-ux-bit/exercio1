@@ -15,4 +15,13 @@ public class TelaPrestadorServico extends TelaJuridica{
     this.descricaoservico = inputPrestadorServico.nextLine();
    
 }
+    public String toString(){
+        String report;
+
+        report = "id:" + getCampoid() + "\n" +
+                  "nome:" + getCampoNome() + "\n" + 
+                  "CNPJ:" + getCnpj() + "\n" +
+                  "Descrição do serviço" + getDescricaoservico() + "\n";
+                  return report;
+    }
 }
